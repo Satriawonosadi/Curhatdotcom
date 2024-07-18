@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curhatcom</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Curhat.com</h1>
+    </div>
+    <div class="container">
+        <div class="left-sidebar">
+            <ul>
+                <li><a href="#" onclick="showHome()">Home</a></li>
+                <li><a href="#" onclick="showProfile()">Profile</a></li>
+                <li><a href="#" onclick="showMessages()">Messages</a></li>
+                <li><a href="#" onclick="showFriends()">Friends</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div id="loginContent">
+                <div class="login-box">
+                    <h2>Login</h2>
+                    <input type="text" id="username" placeholder="Username" />
+                    <button id="loginButton">Login</button>
+                </div>
+            </div>
+            <div id="homeContent" class="hidden">
+                <div class="post-box">
+                    <input type="text" id="postContent" placeholder="What's on your mind?" />
+                    <button id="postButton">Post</button>
+                </div>
+                <div id="postsContainer"></div>
+            </div>
+            <div id="profileContent" class="hidden">
+                <div class="profile-header">
+                    <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
+                    <h2 id="profileName">John Doe</h2>
+                </div>
+                <div class="profile-details">
+                    <p><strong>this website is still under development</strong></p>
+                </div>
+                <div class="profile-posts">
+                    <h3>My Posts</h3>
+                    <div id="profilePostsContainer"></div>
+                </div>
+            </div>
+            <div id="messagesContent" class="hidden">
+                <h2>Messages</h2>
+                <p>Dalam konstruksi...</p>
+                <button id="messagesBackButton">Back to Home</button>
+            </div>
+            <div id="messagesContent" class="hidden">
+                <h2>Messages</h2>
+                <p>Dalam konstruksi...</p>
+                <button id="messagesBackButton">Back to Home</button>
+            </div>
+            <div id="friendsContent" class="hidden">
+                <h2>Friends</h2>
+                <p>Dalam konstruksi...</p>
+                <button id="friendsBackButton">Back to Home</button>
+            </div>                        
+        </div>
+        <div class="right-sidebar">
+            <div class="profile-box">
+                <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic-small" id="profilePic">
+                <span id="profileNameSidebar">User</span>
+            </div>
+            <h3>Sponsored</h3>
+            <p>@xo.designstore_</p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,209 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ebee;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #001543;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 24px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.left-sidebar, .right-sidebar {
+    width: 20%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.main-content {
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.left-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-sidebar ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.left-sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.post-box {
+    margin: 20px 0;
+}
+
+#postContent {
+    width: calc(100% - 70px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#postButton {
+    display: inline-block;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.post {
+    background: white;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.like-button {
+    color: #001e3d;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.like-button.liked {
+    color: #e74c3c;
+}
+
+.delete-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.likes-count {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #333;
+}
+
+.profile-pic-small {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #333;
+}
+
+.profile-details p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.profile-posts h3 {
+    margin-top: 30px;
+}
+
+.login-box {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#username {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#loginButton {
+    padding: 10px 20px;
+    background-color: #001543;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#profileNameSidebar {
+    display: block;
+    margin-top: 10px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-pic-small {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.post h4 {
+    margin: 0;
+    font-size: 1em;
+}
+
+.like-button {
+    width: 20px; 
+    height: 20px;
+    margin-right: 5px;
+}
+
+.likes-count {
+    margin-left: 10px;
+    vertical-align: middle;
+}
